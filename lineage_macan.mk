@@ -11,8 +11,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from macan device
 $(call inherit-product, device/oneplus/macan/device.mk)
 
-# Inherit some common Lineage stuff.
+# Inherit some common DerpFest stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+DERPFEST_BUILD_TYPE := Official
 
 PRODUCT_NAME := lineage_macan
 PRODUCT_DEVICE := macan
