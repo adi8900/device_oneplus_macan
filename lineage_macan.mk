@@ -14,6 +14,7 @@ $(call inherit-product, device/oneplus/macan/device.mk)
 # Inherit some common DerpFest stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 DERPFEST_BUILD_TYPE := Official
+TARGET_SUPPORTS_QUICK_TAP := false
 
 PRODUCT_NAME := lineage_macan
 PRODUCT_DEVICE := macan
